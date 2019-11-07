@@ -58,11 +58,8 @@ def turn(board)
 end
 
 def play(board)
-<<<<<<< HEAD
   until over?(board) || draw?(board)
-=======
   until over?(board)
->>>>>>> 051206c00292f820dee5be7abd5b0b9a7023804f
   turn(board)
   end
   if draw?(board)
